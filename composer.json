@@ -1,0 +1,15 @@
+{
+    "name": "emeka/ict-blog",
+    "autoload": {
+        "psr-4": {
+            "MyBlog\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "emeka",
+            "email": "emekaenyinnia123@gmail.com"
+        }
+    ],
+    "require": {}
+}

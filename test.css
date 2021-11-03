@@ -1,0 +1,326 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background: #1956b4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  /* Font */
+
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  /* background: #e5e8eeea; */
+  background: linear-gradient(to bottom left, #3458bd 40%, #2c6be0 100%);
+}
+
+.card_title {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px 9em;
+   background: #1956b4;;
+}
+
+.navbar-menu{
+    display: flex;
+    
+}
+#brand{
+    padding: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+#search{
+    display: none;
+}
+
+ul{
+  float: right;
+}
+
+#burger{
+ display: none;
+    
+}
+.navbar-menu li{
+    display: flex;
+ 
+    padding: 10px 15px;
+}
+.navbar-menu li a{
+  display: flex;
+  /* padding: 10px 15px; */
+  color: white;
+}
+.done {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.donedefault {background-color: #e7e7e7; color: black;} /* Gray */
+.donedefault:hover {background: #ddd;}
+
+.doneinfo {background-color: #2196F3;} /* Blue */
+.doneinfo:hover {background: #0b7dda;}
+
+.donewarning {background-color: #ff9800;} /* Orange */
+.donewarning:hover {background: #e68a00;}
+.donedanger {background-color: #f44336;} /* Red */
+.donedanger:hover {background: #da190b;}
+
+
+@media screen and (max-width:900px){
+
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+       padding: 15px 20px;
+       background-color: #04AA6D;
+        margin: 0 auto;
+    }
+    
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 4em;
+       padding: 0px 5px;  
+    }
+    #toggler {
+        display: block;
+        position: absolute;
+        top: 4em;
+       padding: 0 5px;
+      
+        
+    }
+
+  
+    #brand{
+        padding: 5px 0;
+        font-size: 25px;
+        color: white;
+    }
+    #search{
+        padding: 10px  0px;
+        display:flex ;
+    }
+
+
+    #search-input{
+        padding: 5px 20px ;
+        border-radius: 5px;
+    }
+    
+    
+    
+    #burger{
+     display: block;
+     font-size: 30px;
+ position: relative;
+ right: 25px;
+        color: white;
+    }
+    .navbar-menu li{
+     text-transform: uppercase;
+        display: block;
+        padding: 15px 0;
+    }
+    .navbar-menu li a{
+     color:white;
+        display: block;
+   
+    }
+    .error{
+      width: 100%;
+      padding: 12px 20px;
+      color: red;
+      background-color: rgba(243, 146, 146, 0.884);
+    }
+    .success{
+      width: 100%;
+      padding: 12px 20px;
+      color: green;
+      background-color: rgba(146, 243, 175, 0.884);
+    }
+   
+   
+
+}
